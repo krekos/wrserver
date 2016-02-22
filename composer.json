@@ -1,0 +1,16 @@
+{
+	"name": "nette/web-project",
+	"description": "Nette: Standard Web Project",
+	"type": "project",
+	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"require": {
+		"php": ">= 5.4.0",
+		"nette/nette": "@dev",
+		"tracy/tracy": "^2.3",
+		"kdyby/doctrine": "^3.0",
+		"o5/grido": "@dev"
+	},
+	"require-dev": {
+		"nette/tester": "^1.6"
+	}
+}
