@@ -1,0 +1,14 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=127.0.0.1;dbname=wrserver'
+	user: root
+	password: root
+
+doctrine:
+    user: root
+    password: root
+    dbname: wrserver
+    metadata:
+        App: %appDir%\models\entities
